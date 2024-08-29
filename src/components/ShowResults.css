@@ -1,0 +1,40 @@
+.results-container {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-checkbox {
+  margin-right: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.result-checkbox:checked {
+  accent-color: #007bff; /* Customizes the color when checked */
+}
+
+.result-text {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.result-checkbox:checked + .result-text {
+  color: #007bff;
+  text-decoration: line-through;
+}

@@ -1,0 +1,30 @@
+/* Search.css */
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  gap: 8px; /* Adjust spacing as needed */
+  border: 1px solid #ddd; /* Add border to form */
+  border-radius: 4px; /* Add rounded corners */
+  padding: 8px; /* Add padding inside the form */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: #666; /* Change icon color */
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  flex: 1; /* Allow input to take up remaining space */
+}
+
+.search-input::placeholder {
+  color: #aaa; /* Placeholder text color */
+}

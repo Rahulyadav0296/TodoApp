@@ -1,0 +1,50 @@
+/* CountItems.css */
+
+.count-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 8px; /* Adjust spacing as needed */
+  padding: 16px; /* Add padding around the component */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.item-count {
+  margin: 0;
+  font-size: 16px; /* Font size for item count */
+  color: #333; /* Text color */
+}
+
+.button-group {
+  display: flex;
+  gap: 8px; /* Space between buttons */
+}
+
+.filter-button {
+  border: 1px solid #ccc; /* Border for filter buttons */
+  background-color: #fff; /* Background color */
+  padding: 8px 16px; /* Padding inside buttons */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.filter-button:hover {
+  background-color: #e0e0e0; /* Background color on hover */
+}
+
+.clear-button {
+  border: none;
+  background-color: #ff4d4d; /* Background color for clear button */
+  color: white; /* Text color */
+  padding: 8px 16px; /* Padding inside button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.clear-button:hover {
+  background-color: #cc0000; /* Background color on hover */
+}
